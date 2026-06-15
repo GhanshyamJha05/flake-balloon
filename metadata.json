@@ -1,0 +1,6 @@
+{
+  "name": "Snowflakes and Balloons Visualizer",
+  "description": "A elegant and formal frontend application that triggers falling snowflakes and rising balloons with fluid motion animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
