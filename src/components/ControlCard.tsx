@@ -84,7 +84,7 @@ export default function ControlCard({
             disabled={isSnowActive}
             className={`w-full max-w-[240px] py-3.5 px-6 border text-[11px] font-semibold uppercase tracking-[0.25em] transition-all duration-300 cursor-pointer flex items-center justify-center gap-2 h-12 rounded-none ${
               isSnowActive 
-                ? "bg-sky-500/10 text-sky-200 border-sky-404/30 cursor-default" 
+                ? "bg-sky-500/10 text-sky-200 border-sky-400/30 cursor-default" 
                 : "bg-transparent text-slate-400 border-slate-800 hover:border-slate-200 hover:text-white hover:bg-white/[0.01]"
             }`}
           >
@@ -127,7 +127,7 @@ export default function ControlCard({
             disabled={isBalloonActive}
             className={`w-full max-w-[240px] py-3.5 px-6 border text-[11px] font-semibold uppercase tracking-[0.25em] transition-all duration-300 cursor-pointer flex items-center justify-center gap-2 h-12 rounded-none ${
               isBalloonActive 
-                ? "bg-rose-500/10 text-rose-200 border-rose-404/30 cursor-default" 
+                ? "bg-rose-500/10 text-rose-200 border-rose-400/30 cursor-default" 
                 : "bg-transparent text-slate-400 border-slate-800 hover:border-slate-200 hover:text-white hover:bg-white/[0.01]"
             }`}
           >
